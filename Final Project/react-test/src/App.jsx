@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// Importing all necessary components
 import Header from "./Header";
 import HomePage from "./landing";
 import DemandeIntervention from "./DemandeIntervention";
@@ -23,13 +24,21 @@ import PVReceptionTable from "./TablePvReception";
 import LoginPage from "./login";
 import SignUpPage from "./SignUp";
 import ForgotPassword from "./forgotpass";
-import { Link } from "react-router-dom";
+
+// Add the new pages
+import Partnership from "./Partnership";
+import BookAppointment from "./BookAppointment";
+import PrivacyPolicy from "./PrivacyPolicy";
+import ManageAppointments from "./ManageAppointments";
+import ContactUs from "./contactUS.jsx"; // Import ContactUs page
+import About from "./about"; // Import About page
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
+        {/* Main Pages */}
         <Route path="/" element={<HomePage />} />
         <Route path="/DemandeIntervention" element={<DemandeIntervention />} />
         <Route path="/InterventionOrder" element={<InterventionOrder />} />
@@ -48,9 +57,19 @@ function App() {
         <Route path="/EngineerTableOrder" element={<EngineerTableOrder />} />
         <Route path="/EngineerCheckList" element={<EngineerCheckList />} />
         <Route path="/PVReceptionTable" element={<PVReceptionTable />} />
+        
+        {/* Authentication Pages */}
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/SignUpPage" element={<SignUpPage />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+
+        {/* New Routes */}
+        <Route path="/Partnership" element={<Partnership />} />
+        <Route path="/BookAppointment" element={<BookAppointment />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/ManageAppointments" element={<ManageAppointments />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/About" element={<About />} /> {/* Added route for About page */}
       </Routes>
     </Router>
   );
