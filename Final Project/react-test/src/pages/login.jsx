@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import loginphoto from "./images/loginphoto.png";
+import loginphoto from "/src/assets/images/loginphoto.png";
 
 function LoginPage() {
   return (

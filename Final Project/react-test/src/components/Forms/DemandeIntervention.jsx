@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bg1 from "../src/images/bg1.png";
+import bg1 from "/src/assets/images/bg1.png";
 
 const DemandeIntervention = () => {
   const [formData, setFormData] = useState({

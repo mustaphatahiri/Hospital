@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bg2 from "../src/images/bg2.png";
+import bg2 from "/src/assets/images/bg2.png";
 
 function InterventionOrder() {
   const [formData, setFormData] = useState({

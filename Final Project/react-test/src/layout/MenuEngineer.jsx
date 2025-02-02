@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import EngineerIcon from "./engineer.png";
+import EngineerIcon from "/src/assets/images/engineer.png";
 
 function MenuEngineer() {
   const navigate = useNavigate();

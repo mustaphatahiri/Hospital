@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import loginphoto from "./images/loginphoto.png";
+import loginphoto from "/src/assets/images/loginphoto.png";
 
 function SignUpPage() {
   const navigate = useNavigate();
@@ -68,7 +68,7 @@ function SignUpPage() {
               className="text-blue-500 hover:underline cursor-pointer"
               onClick={() => navigate("/LoginPage")}
             >
-              {" "}Sign In
+              {" "}Login
             </span>
           </p>
         </form>

@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="sticky top-0 z-50 flex justify-between items-center bg-emeraldCustom p-4 shadow-md">
-      <h1 className="text-white text-lg font-bold">EquipCare Cloud</h1>
+      {/* Wrap the h1 with a Link to navigate to the home page */}
+      <Link to="/">
+        <h1 className="text-white text-lg font-bold">EquipCare Cloud</h1>
+      </Link>
       <nav className="flex items-center space-x-6">
         {/* Navigation Links */}
         <Link to="/" className="text-white font-bold hover:text-gray-300">
