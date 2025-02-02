@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bg4 from "../src/images/BG7.png"; // Update with correct path if needed
+import bg4 from "/src/assets/images/BG7.png"; // Update with correct path if needed
 
 const BookAppointment = () => {
   const [formData, setFormData] = useState({

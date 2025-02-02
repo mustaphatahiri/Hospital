@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BG8 from "../src/images/BG10.png"; // Ensure this is the correct path
+import BG8 from "/src/assets/images/BG10.png"; // Ensure this is the correct path
 
 const PrivacyPolicy = () => {
   return (

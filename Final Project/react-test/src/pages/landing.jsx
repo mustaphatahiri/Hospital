@@ -1,5 +1,5 @@
 import React from "react";
-import land from './images/land.png';
+import land from "/src/assets/images/land.png";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -145,6 +145,7 @@ const HomePage = () => {
             title="YouTube video 2"
             allowFullScreen
           ></iframe>
+          <br />
           <p className="text-gray-700">
             Learn about how we help medical professionals in 2024 and beyond!
           </p>
@@ -157,20 +158,9 @@ const HomePage = () => {
   <p className="text-lg mb-6">
     Enhance your healthcare management experience with our platform. <br /> Contact us to learn more!
   </p>
-  <div className="flex justify-center space-x-2">
-    <input
-      type="email"
-      className="p-3 rounded-full outline-none w-64"
-      placeholder="Enter your email"
-    />
-    <button className="bg-white text-green-500 py-2 px-6 rounded-full hover:bg-green-600 hover:text-white transition">
-      Send
-    </button>
-  </div>
-  <div className="mt-4 flex justify-center space-x-6">
-    <a href="#" className="hover:underline">
-      Features
-    </a>
+  
+  <div className="mt-3 flex justify-center space-x-6">
+    
     <Link to="/contactus" className="hover:underline">
       Contact Us
     </Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import SuccessIcon from './images/success.png';
+import SuccessIcon from "/src/assets/images/success.png";
 
 const SuccessPageDemande = () => {
   return (

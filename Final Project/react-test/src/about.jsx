@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BG7 from "../src/images/BG10.png"; // Ensure this is the correct path
+import BG7 from "/src/assets/images/BG10.png"; // Ensure this is the correct path
 
 const About = () => {
   return (

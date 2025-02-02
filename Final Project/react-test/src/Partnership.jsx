@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG12 from "../src/images/BG8.png"; // Ensure this is the correct path
+import BG12 from "/src/assets/images/BG8.png"; // Ensure this is the correct path
 
 const Partnership = () => {
   return (

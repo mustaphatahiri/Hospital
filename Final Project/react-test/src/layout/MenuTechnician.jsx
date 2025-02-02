@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import TechnicianIcon from './technician.png';
+import TechnicianIcon from "/src/assets/images/technician.png";
 
 function MenuTechnician() {
     const navigate = useNavigate();

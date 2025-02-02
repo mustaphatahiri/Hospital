@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import bg4 from "../src/images/bg4.png";
+import bg4 from "/src/assets/images/bg4.png";
 
 function Checklist() {
   const handleSubmit = (e) => {
